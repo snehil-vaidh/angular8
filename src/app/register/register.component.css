@@ -1,0 +1,83 @@
+.insetreg { 
+    margin-left:790px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 270px;
+    height: 38px;
+    padding: 9px;
+    background-color: rgb(241, 245, 245);
+    
+    
+    }
+    h2 { 
+     margin-left:795px;
+    margin-top: 20px;
+    margin-bottom:-10px;
+    width: -20px;
+    }
+    
+    .btn2{ 
+    left:790px;
+    font-family:'Voltaire',sans-serif;
+    color: white;
+    position:relative; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    width: 120px;
+    height: 45px;
+    margin: 2px;
+    text-align: center;
+    box-shadow: #70f148;
+    background-color: rgb(255, 94, 1);
+    }
+    
+    .btn1{ 
+        left:790px;
+        font-family:'Voltaire',sans-serif;
+        color: white;
+        position:relative; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        width: 140px;
+        height: 45px;
+        margin: 2px;
+        text-align: center;
+        background-color: rgb(255, 1, 107);}
+    
+        .btn2:focus,.btn1:focus, .btn2:active, .btn1.active, .insetreg:active,.btn2:focus:active,.btn1:focus:active {
+            background-image: none;
+            outline: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            box-shadow:none     }
+    
+          input[type="text"],input[type="password"], textarea {
+            outline: none;
+            box-shadow:none !important;
+           
+            }
+    
+          h2,h3{
+              display: inline-block;
+              font-size: 40px;
+              
+          }
+            h3{
+               
+                font-size: 40px;
+                color: rgb(255, 2, 99);
+            }
+    
+    #rct{
+                width: 270px;
+                margin-left:790px;
+              }
+    
+              #rct1{
+                width: 270px;
+                margin-left:790px;
+              }
+            

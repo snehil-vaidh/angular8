@@ -1,0 +1,30 @@
+
+        
+            <div class="container">
+                <div class="row">
+                    <div >
+                        <h2><b>Sign Up </b><h3><b>Now!</b></h3></h2>
+                        <form #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)">
+                            
+                                <input class="insetreg" placeholder="Username" type="text" name="UserName" id="UserName" [(ngModel)]="user.UserName">
+                                 
+                                
+                                <input class="insetreg"  name="Email" type="text" placeholder="Email Address" [(ngModel)]="user.Email">
+                                <br/>
+                                
+                                 <input class="insetreg"  name="password" type="password" placeholder="Password" [(ngModel)]="user.password" >
+                                 
+                            <div class="form-group">
+                                <button class="btn2">Student</button>
+                                
+                                <button class="btn1">Professional</button>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+ 
+   
+  
+    
