@@ -1,9 +1,6 @@
-p {
-  font-family: Lato;
-}
+
 .swiper-container {
-  width: 1350px;
-  height: 380px;
+ 
   background-color: white;
   margin-left: -15px;
  
@@ -30,160 +27,83 @@ p {
   align-items: center;
   
 }
+p{
+
+    font-family: Lato;
+
+  color: black;
+  
+}
 
 #abc{
   height: 250px;
   width: 300px;
 }
-
+#abc2 {
+  width: 350px;
+  height: 220px;
+  overflow: auto;
+ 
+}
 h2 { 
 
- margin-top: -400px;
- margin-bottom:-200px;
- width: -20px;
+ 
  color: rgb(255, 94, 1);
  }
- h2,h3{
-  
-  display: inline-block;
-  font-size: 40px;
-  
-}
-h3{
-  
-    font-size: 40px;
-    color: rgb(248, 28, 113);
-}
-h4 { 
+ h4 { 
 
-  font-size: 35px;
+  font-size: 30px;
   color: rgb(248, 28, 113);
   }
-p{
-   
-    margin-top: 5px;
-    font-size: 20px;
+
+span{
+  
+    
+    color: rgb(248, 28, 113);
 }
+
 
 #abc1 {
   text-align: left;
-  width: 500px;
+  width: 400px;
   padding: 10px;
-  margin-left: -200px;
   height: 250px;
- 
   margin-top: 10px;
+  overflow: auto;
  
 }
-#abc2 {
-  text-align: right;
-  width: 500px;
-  padding: 10px;
-  margin-right: -200px;
+
+#abc3{
+  color: white;
+  font-size: 20px;
+}
+#abcimg{
   height: 250px;
- 
-  margin-top: -40px;
- 
+  width: 300px;
+  float: left;
 }
 
 [data-id|=s2]{
-background-image: url("Path3 - Copy.png");
-background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: 1250px 380px;
-
-}
-#abc3{
-color: white;
-}
-#abc12{
-border: 2px solid blue;
-height: 250px;
-width: 250px;
-}
-#pqr{
-margin-top: 10px;
-width:220px;
-height: 150px;
-border: 2px solid blue;
-border-radius: 50%;
-
-}
-hr{
-margin-top: 10px;
-border: 2px solid blue;
-line-height: 0;
-}
-#abc121{
-line-height: 0;
-}
-
-#pqr12{
-  border: 0px solid black;
-  width: 1350px;
-  height: 350px;
-  margin-left: -15px;
-  background-color: rgba(0, 0, 0, 0.767);
-  margin-top: -50px;
-}
-#footer1{
-height: 200px;
-width: 200px;
-
-margin-left: 100px;
-margin-top: 10px;
-
-position: relative;
-}
-h5{
-  color: rgba(255, 255, 255, 0.726);
-  font-size: 22px;
-  text-align: center;
-  margin-left: 50px;
-
-}
-li,a{
-  list-style-type: none;
-  color: white;
-  font-size: 17px;
-  text-align: center;
-}
-#footer2{
-  height: 200px;
-  width: 200px;
+  background-image: url("Path3 - Copy.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 1150px 280px;
   
-  margin-left: 330px;
-  margin-top: -209px;
-  position: relative;
-}
+  }
 
-#footer3{
-  height: 200px;
-  width: 300px;
-  
-  margin-left: 520px;
-  margin-top: -209px;
-  position: relative;
-}
-#footer4{
-  height: 200px;
-  width: 400px;
- 
-  margin-left: 920px;
-  margin-top: -209px;
-  position: relative;
-}
-#stay1{
-  color: white;
-  font-size: 18px;
-}
-#stay{
-  color: rgba(255, 255, 255, 0.726);
-  font-size: 22px;
-  text-align: left;
-  margin-left: 0px;
-}
-#footerimg{
-  margin-left: -120px;
-  margin-top: -50px;
-}
+  #pqr{
+    margin-top: 10px;
+    width:180px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    
+    }
+    #abc121{
+      line-height: 0;
+      }
+      #abc12{
+        border: 2px solid blue;
+        height: 250px;
+        width: 200px;
+        }

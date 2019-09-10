@@ -1,26 +1,47 @@
-	
+
+.form-inline{
+float: right;
+margin-top: 50px;
+}
+.nav.navbar-nav{
+  float: right;
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  
+}
+
+.navbar.navbar-inverse{
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+nav{
+  border: white;
+  color: black;
+}
+
+.nav.navbar-nav li a:hover ,li a:active,a:checked{
+  border-bottom: 3px solid rgb(255, 2, 99);
+    color: rgb(255, 2, 99); 
+}
 .insetreg { 
-    left:550px;
-    font-family:'Voltaire',
-    sans-serif;
-    height: 40px;
-    width: 180px;
-    position:relative; 
-    margin-top: 20px;
-    margin-bottom: 50px;
-    border-radius: 15px;
-    margin: 30px 10px 30px 10px;
-    background-color: rgb(241, 245, 245);
-    border:1px solid black;
-    }
-    
-    .loginbtn { 
-    left:560px;
+   
+  font-family:'Voltaire',
+  sans-serif;
+  height: 40px;
+  width: 180px;
+  padding: 9px;
+  border-radius: 15px;
+  background-color: rgb(241, 245, 245);
+  color: black;
+  }
+
+  .loginbtn { 
+      
     font-family:'Voltaire',sans-serif;
     color: white;
-    position:relative; 
-    margin-top: 10px;
-    margin-bottom: 10px;
     border-radius: 15px;
     width: 100px;
     height: 40px;
@@ -38,42 +59,13 @@
     outline: none;
     box-shadow:none !important;
     }
-  
-    
-  .navbar.navbar-inverse{
-    width: 880px;
-    left: 480px;
-    height: 20px;
-    background-color: white;
-    border: none;
-    }
-    .nav.navbar-nav a{
-    font-size: 18px;
-    color: black;
-    text-align: center;
-    float: left;
-    line-height: 0;
-    }
-    .nav.navbar-nav a:hover,a:active,a:checked{
-    border-bottom: 3px solid rgb(255, 2, 99);
-    color: rgb(255, 2, 99);  
-    
+
+    .container{
+      margin-top: 30px;
       
     }
-    body {
-      background-image: url("Landing.svg");
-  
-      /* You must set a specified height */
-      background-position: center; /* Center the image */
-      background-repeat: no-repeat; /* Do not repeat the image */
-      background-size: 1350px 820px; 
-    }
-    body{
-   
-      height: 657px;
-    }
-    div{
-      height: auto; /*if more info comes on the page, it will stretch down*/
-width: auto;
-margin: 0 auto; 
-    }
+
+
+    .nav.navbar-nav li a {
+      color: black;
+  }
