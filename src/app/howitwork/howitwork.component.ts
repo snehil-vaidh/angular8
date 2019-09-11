@@ -1,15 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-
+declare function require(path: string):any;
 @Component({
   selector: 'app-howitwork',
   templateUrl: './howitwork.component.html',
   styleUrls: ['./howitwork.component.css']
 })
-export class HowitworkComponent implements OnInit {
+export class HowitworkComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  
+  imagesrc1=require('./shapes.png')
 
 }

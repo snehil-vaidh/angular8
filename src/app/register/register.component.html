@@ -1,6 +1,7 @@
 <body>
     <div class="container">
-    <form  class="form-inline" #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)">
+            <div class="container">
+                    <form  class="form-inline" #userRegistrationForm="ngForm" (ngSubmit)="OnSubmit(userRegistrationForm)">
         <h2><b>Sign Up <span>Now!</span></b></h2>
         <input class="insetreg" placeholder="Username" type="text" name="UserName" id="UserName" [(ngModel)]="user.UserName"><br/><br/>
         <input class="insetreg"  name="Email" type="text" placeholder="Email Address" [(ngModel)]="user.Email"><br/><br/>
@@ -8,6 +9,7 @@
         <button class="btn2">Student</button>&nbsp;&nbsp;
         <button class="btn1">Professional</button>
     </form>
+</div>
 </div>
 </body>
    

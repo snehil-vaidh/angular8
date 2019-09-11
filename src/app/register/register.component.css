@@ -1,7 +1,23 @@
-.form-inline{
-  float: right;
-  margin-right: 20px;
-}
+
+      body{
+        height: 115vh;
+  width: 119%;
+  background: url("Landing.svg") no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: -220px;
+  margin-left: -110px;
+      }
+      
+    
+      .form-inline{
+        float: right;
+        margin-left: 100px;
+        margin-top: 120px;
+       
+      }
+
+      
 
 .insetreg { 
     
@@ -58,11 +74,3 @@
         color: rgb(255, 2, 99);
       }
       
-      body{
-        height: 100vh;
-  width: 100%;
-  background: url("Landing.svg") no-repeat;
-  background-size: cover;
-  color: white;
-  margin-top: -50px;
-      }
